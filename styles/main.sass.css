@@ -1,0 +1,48 @@
+#userName {
+  padding: 3em 0;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: grey; }
+
+.top-header {
+  font-family: cursive;
+  font-size: 4em;
+  background-color: #8B6889;
+  color: white;
+  text-align: center;
+  height: 2em;
+  border: .2em solid red;
+  padding: .5em 0; }
+
+#conversation {
+  padding: 1em 1em;
+  border: .2em solid black;
+  margin-bottom: 1em; }
+
+#input {
+  height: 2em;
+  font-size: 1.2em;
+  width: 74%; }
+
+#button {
+  height: 4em;
+  width: 24%; }
+
+.timeStamp {
+  font-size: .5em; }
+
+.eMessage {
+  background-color: #65D6EC;
+  border-radius: 1.5em;
+  display: inline-block;
+  color: blue;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-bottom: 1.2em; }
+
+.delete {
+  margin: 3em 0;
+  float: right; }
