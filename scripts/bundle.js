@@ -47,6 +47,11 @@ $(document).ready(function () {
 			});
 		});
 	});
+	$('.comment').emoticonize({
+		delay: 800,
+		animate: false
+		//exclude: 'pre, code, .no-emoticons'
+	});
 });
 
 },{}]},{},[1])

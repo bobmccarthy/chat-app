@@ -3,24 +3,31 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="styles/main.sass.css">
+	<link href="stylesheets/jquery.cssemoticons.css" media="screen" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="top-header">Chat Space</div>
-	<form id="userName">
+	<div id="userName">
+		<div class="texty">Please enter your user name.</div>
 		<input id="name" placeholder="Type in UserName">
 		<button id="userSubmit">Click to Add User</button>
-	</form>
+	</div>
 	<div id="main">	
 		<div id="conversation"></div>
 		<form>
-			<input type="text" id="input">
+			<input class="comment" type="text" id="input" placeholder="Type text here">
 			<button id="button">Post Comment</button>
 		</form>
 		<button class="delete">Delete Conversation</button>
 	</div>
 	
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
+
+
 <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
+<script src="javascripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="javascripts/jquery.cssemoticons.js" type="text/javascript"></script>
 <script type="text/javascript" src="/scripts/main.js"></script>
 </body>
 </html>

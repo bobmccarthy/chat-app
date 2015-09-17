@@ -1,11 +1,29 @@
+body{
+	background-color: #B67A8F;
+}
 #userName{
 	padding: 3em 0;
 	text-align: center;
 	margin-left: 30%;
 	margin-right: 30%;
 	background-color: grey;
+	border: .2em dashed red;
 }
-
+#name{
+	font-size: 2em;
+	width: 90%;
+	margin-bottom: 1em;
+}
+#userSubmit{
+	height: 4em;
+	background-image: linear-gradient(#AAD150, #4B9805);
+}
+.texty{
+	font-family: futura;
+	font-size: 2em;
+	color: #DDB98B;
+	margin-bottom: 1em;
+}
 .top-header{
 	font-family: cursive;
 	font-size: 4em;
@@ -16,19 +34,28 @@
 	border: .2em solid red;
 	padding: .5em 0;
 }
+#main{
+	margin-top: 3em;
+
+}
 #conversation{
 	padding: 1em 1em;
 	border: .2em solid black;
 	margin-bottom: 1em;
+	width: 50%;
+	margin-left:24%;
+	background-color: yellow;
 }
 #input{
+
 	height:2em;
 	font-size: 1.2em;
-	width:74%;
+	width:40%;
+	margin-left: 25%;
 }
 #button{
-	height: 4em;
-	width:24%;
+	height: 3em;
+	width: 10%;
 }
 .timeStamp{
 	font-size: .5em;
@@ -38,7 +65,7 @@
 	background-color: #65D6EC;
 	border-radius: 1.5em;
 	display: inline-block;
-	color: blue;
+	
 	padding-left: .5em;
 	padding-right: .5em;
 	font-size:1.5em;
